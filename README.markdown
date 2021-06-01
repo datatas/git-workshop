@@ -1,6 +1,7 @@
 How to GIT awesome ?
 =============
 Modified from Kuahyeow's tutorial for DataTas
+
 Nic Pittman
 Jake Weis
 
