@@ -4,6 +4,25 @@ Modified from Kuahyeow's tutorial for DataTas
 
 Nic Pittman & Jake Weis
 
+A fun and interactive git and github tutorial
+
+Thanks for joining us today. Let's learn all about Git.
+
+Aims for Today:
+
+    What is Git (version control) and why should I use it (and some repository examples)?
+    Installing git
+    How does repository workflow work (add, commit, push, branching, merging)
+    
+    Using Github (Pull requests, collaboration, publishing scientific code)
+    How to create a new repository
+    How to back up / or find old data.
+    
+    SSH handshake vs HTTP 
+
+ 
+
+
 What is GIT?
 ------------
 Git is a *distributed* **version control** system [1]
