@@ -1,6 +1,11 @@
-What is Git ?
+How to GIT awesome ?
 =============
+Modified from Kuahyeow's tutorial for DataTas
+Nic Pittman
+Jake Weis
 
+What is GIT?
+------------
 Git is a *distributed* **version control** system [1]
 
 [1] <a href="http://git-scm.com/about">http://git-scm.com/about</a>
@@ -25,14 +30,14 @@ other people who download the project.
 
 As a helpful step, you may want to set Git to use your favourite editor
 
-    $ git config --global core.editor emacs
+    $ git config --global core.editor vim
 
 Starting your journey
 ---------------------
 
 First, clone this repository:
 
-    $ git clone https://github.com/kuahyeow/git-workshop.git
+    $ git clone https://github.com/datatas/git-workshop.git
 
 You may want to fork (create your own copy of) the project on github and
 clone from your own repo. You can find the fork button at the top right of
@@ -135,10 +140,7 @@ from mistakes.
 Be forewarned, this next step is going to be hard. We will need to add
 some content to alice.txt.
 
-Open `alice.txt` and type in your favourite line from a song, or:
-
-e.g. Lorem ipsum Sed ut perspiciatis, unde omnis iste natus error sit
-voluptatem accusantium doloremque laudantium
+Open `alice.txt` and type in some interesting text.
 
 Then **save** the file
 
@@ -319,7 +321,7 @@ You have to be in the branch you want merge *into* and then you always
 specify the branch you want to merge.
 
 At this point, you can also try out `gitk` to visualize the changes and
-how the two branches have merged
+how the two branches have mergedgitk omsta;;
 
 Merge Conflicts
 ---------------
@@ -391,7 +393,7 @@ Stuck? Ask for help from the workshop staff
 
 Congratulations. You have fixed the conflict. All is good in the world.
 
-Fin
+The End
 ---
 
 You have learnt :
@@ -405,18 +407,7 @@ You have learnt :
 7.  Fixing conflicts
 
 
-Now You can choose two tracks, either Part II (below) which covers time travel and
-mangling your git history, or Part III (even below-er) which covers Github pull
-requests and cat gifs.
-
 Part II
-=======
-
-Check out the `revert` branch on this repository for further instructions!
-You can always get back to this version of the readme by checking out the master
-branch.
-
-Part III
 ========
 
 GitHub
@@ -477,6 +468,16 @@ You have learnt:
 1.  Forking a repo at GitHub
 2.  Git push
 3.  Git pull
+
+
+
+
+Part III
+=======
+
+Check out the `revert` branch on this repository for further instructions!
+You can always get back to this version of the readme by checking out the master
+branch.
 
 ### References and Further reading
 
