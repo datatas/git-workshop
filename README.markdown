@@ -1,30 +1,24 @@
 How to GIT awesome ?
 =============
+A fun and interactive git and github tutorial
 Modified from Kuahyeow's tutorial for DataTas
 
-Nic Pittman & Jake Weis
-
-A fun and interactive git and github tutorial
-
-Thanks for joining us today. Let's learn all about Git.
+Presented by Nic Pittman & Jake Weis
+-----------------------------------
 
 Aims for Today:
 
-    What is Git (version control) and why should I use it (and some repository examples)?
-    Installing git
-    How does repository workflow work (add, commit, push, branching, merging)
-    
-    Using Github (Pull requests, collaboration, publishing scientific code)
-    How to create a new repository
-    How to back up / or find old data.
-    
-    SSH handshake vs HTTP 
-
+- What is Git (version control) and why should I use it (and some repository examples)?
+- Installing git
+- Using Github Part 1
+- How does repository workflow work (add, commit, push, branching, merging)
+- How to create a new repository
+- How to back up / or find old data.
+- Using Github Part 2 (Pull requests, collaboration, publishing scientific code)
  
 
-
 What is GIT?
-------------
+============
 Git is a *distributed* **version control** system [1]
 
 [1] <a href="http://git-scm.com/about">http://git-scm.com/about</a>
@@ -32,7 +26,7 @@ Git is a *distributed* **version control** system [1]
 Getting Git
 -----------
 
-Some house-cleaning here. We assume of course you have Git installed,
+We assume of course you have Git installed,
 (hopefully \>= 1.7.0).
 
 If you don't you can install it from downloads on the git homepage or you can
@@ -50,9 +44,54 @@ other people who download the project.
 As a helpful step, you may want to set Git to use your favourite editor
 
     $ git config --global core.editor vim
+    
+    
+ 
+Using Github Part 1
+==================
+To be able to share, we’ll need a server to host our git repositiories.
+GitHub (<a href="https://github.com/">github.com</a>) is probably the
+easiest place to begin with.
 
-Starting your journey
----------------------
+Login or sign up with GitHub
+----------------------------
+
+If you've already got an account you can skip on to creating the repo on
+github, or forking this repository and cloning it down to your local machine.
+
+Otherwise...
+
+Go <a href="https://github.com/signup">sign up for an account</a> at
+GitHub; Or login into your GitHub account if you had previously signed
+up.
+
+Hint: You may need to setup git cache your GitHub password - see
+<a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a>
+
+Then come back here, we’ll wait.
+
+Create your first GitHub repository (Fork this one!)
+-----------------------------------------------------
+
+A repository (repo) is a place where you would store your code. 
+Try forking this repository.
+
+Go to [this tutorial](https://help.github.com/articles/fork-a-repo)
+Then come back here, we’ll wait.
+    
+  
+While we are here ... Optional and advanced but very useful (SSH keys)
+--------------------------------------------------------
+Lets set up SSH keys between github and our laptop so we can pull or push without having to put in our password.
+
+Github > Settings > SSH and GPG keys > New SSH Key and follow the links provided for help.
+https://docs.github.com/articles/generating-an-ssh-key/
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+
+Starting your git journey
+========================
 
 First, clone this repository:
 
@@ -159,7 +198,7 @@ from mistakes.
 Be forewarned, this next step is going to be hard. We will need to add
 some content to alice.txt.
 
-Open `alice.txt` and type in some interesting text.
+Open `alice.txt` and type in some fun or interesting text.
 
 Then **save** the file
 
@@ -412,7 +451,7 @@ Stuck? Ask for help from the workshop staff
 
 Congratulations. You have fixed the conflict. All is good in the world.
 
-The End
+Summary
 ---
 
 You have learnt :
@@ -426,72 +465,33 @@ You have learnt :
 7.  Fixing conflicts
 
 
-Part II
-========
 
-GitHub
-------
-But, wait. There’s more. What about this distributed sharing thing with
-Git ?
+GitHub Part 2
+=============
 
-To be able to share, we’ll need a server to host our git repositiories.
-GitHub (<a href="https://github.com/">github.com</a>) is probably the
-easiest place to begin with.
-
-Login or sign up with GitHub
-----------------------------
-
-If you've already got an account you can skip on to creating the repo on
-github, or forking this repository and cloning it down to your local machine.
-
-Otherwise...
-
-Go <a href="https://github.com/signup">sign up for an account</a> at
-GitHub; Or login into your GitHub account if you had previously signed
-up.
-
-Hint: You may need to setup git cache your GitHub password - see
-<a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a>
-
-Then come back here, we’ll wait.
-
-Create your first GitHub repository
------------------------------------
-
-A repository (repo) is a place where you would store your code. You were
-practising on your very own repo just now in Part 1!
-
-The following <a href="https://help.github.com/articles/create-a-repo">
+We forked a repository earlier. The following <a href="https://help.github.com/articles/create-a-repo">
 tutorial</a> will show you how to create a GitHub repo - which you can
 then share with others
 
-Then come back here, we’ll wait.
-
-Fork a repo
------------
-
-Go to [this tutorial](https://help.github.com/articles/fork-a-repo)
-Then come back here, we’ll wait.
-
-Let’s collaborate !
--------------------
+Merging:
+--------
 
 Check out the `pull_request` branch on this repository for further instructions!
 You can always get back to this version of the readme by checking out the master branch.
 
-Fin
----
+Searching your code
+------------------
+TEXT
 
-You have learnt:
-
-1.  Forking a repo at GitHub
-2.  Git push
-3.  Git pull
-
+Publishing your code
+-------
+TEXT
 
 
 
-Part III
+
+
+Bonus Content
 =======
 
 Check out the `revert` branch on this repository for further instructions!
