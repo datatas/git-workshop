@@ -3,8 +3,8 @@ How to GIT awesome ?
 A fun and interactive git and github tutorial
 Modified from Kuahyeow's tutorial for DataTas
 
-Presented by Nic Pittman & Jake Weis
------------------------------------
+#### Presented by Nic Pittman & Jake Weis
+
 
 Aims for Today:
 
