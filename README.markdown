@@ -481,11 +481,18 @@ You can always get back to this version of the readme by checking out the master
 
 Searching your code
 ------------------
-TEXT
+Go to a repository and it can be really easy to global search and find what file or where you wrote a certain line of code. 
+
+
 
 Publishing your code
 -------
-TEXT
+Go to https://zenodo.org/
+Will create a DOI for your code.
+
+They have instructions there. 
+Basically create a release on github and it all should just work. 
+
 
 
 
@@ -517,3 +524,4 @@ Attribution-NonCommercial-ShareAlike 3.0 License\
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>\
 Author: Thong Kuah\
 Contributors: Andy Newport, Nick Malcolm
+Adapted by: Nic Pittman
