@@ -379,7 +379,7 @@ You have to be in the branch you want merge *into* and then you always
 specify the branch you want to merge.
 
 At this point, you can also try out `gitk` to visualize the changes and
-how the two branches have mergedgitk omsta;;
+how the two branches have merged.
 
 Merge Conflicts
 ---------------
