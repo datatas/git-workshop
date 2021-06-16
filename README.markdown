@@ -115,6 +115,8 @@ the screen on a github repository, or more help about doing that [here](https://
 
 ***&rarr; Fork instructions:*** *Cloning in Fork: Menu bar > File > Clone (Shift+CMD+N). If you select your GitHub account, you will see all of your repositories on GitHub. Select the workshop repository you forked during the previous step. Choose the location you want your repository to be stored in and hit* ***Clone***.
 
+*The repository will now appear in a new Tab in Fork and also at the specified location on your computer. The current version (commit) of the repository is shown by default. You can take a look at the files in the repository in Fork. No need to open the Finder/file explorer. Select the 'File Tree' tab in the main repository window. You can even see the file contents (if they are text files). You can also find a summary of the current commit (author, description) and changes from the previous commit. More about commits and changes later in the tutorial.*
+
 Once you have cloned your repository, you should now see a directory
 called `git-workshop`. This is your `working directory`
 
