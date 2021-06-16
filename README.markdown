@@ -74,7 +74,7 @@ Hint: You may need to setup git cache your GitHub password - see
 
 Then come back here, we’ll wait.
 
-***&rarr; Fork instructions:*** *Sign up to your GitHub account in Fork: **Menu bar > Fork > Accounts.** *This will let you easily clone repositories from your GitHub account.*
+***&rarr; Fork instructions:*** *Sign up to your GitHub account in Fork:* **Menu bar > Fork > Accounts.** *This will let you easily clone repositories from your GitHub account.*
 
 
 Example of why github is useful: Searching your code
