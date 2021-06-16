@@ -1,7 +1,8 @@
 How to GIT awesome ?
 =============
 A fun and interactive git and github tutorial
-Modified from Kuahyeow's tutorial for DataTas
+Modified for DataTas from Kuahyeow's tutorial
+
 
 #### Presented by Nic Pittman & Jake Weis
 
@@ -74,6 +75,12 @@ Hint: You may need to setup git cache your GitHub password - see
 Then come back here, we’ll wait.
 
 ***&rarr; Fork instructions:*** *Sign up to your GitHub account in Fork: **Menu bar > Fork > Accounts.** *This will let you easily clone repositories from your GitHub account.*
+
+
+Example of why github is useful: Searching your code
+------------------
+Go to a repository and it can be really easy to global search and find what file or where you wrote a certain line of code.
+
 
 Create your first GitHub repository (Fork this one!)
 -----------------------------------------------------
@@ -519,11 +526,6 @@ Merging:
 Check out the `pull_request` branch on this repository for further instructions!
 You can always get back to this version of the readme by checking out the master branch.
 
-Searching your code
-------------------
-Go to a repository and it can be really easy to global search and find what file or where you wrote a certain line of code.
-
-
 
 Publishing your code
 -------
@@ -556,12 +558,12 @@ I throughly recommend these resources to continue your Git practice:
 -   <a href="http://gitref.org">http://gitref.org</a>
 -   <a href="http://www.kernel.org/pub/software/scm/git/docs/everyday.html">http://www.kernel.org/pub/software/scm/git/docs/everyday.html</a>
 
-Author
+Authors
 ------
 
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 License\
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>\
 Author: Thong Kuah\
-Contributors: Andy Newport, Nick Malcolm
-Adapted by: Nic Pittman & Jake Weis
+Contributors: Andy Newport, Nick Malcolm\
+Adapted for DataTas by: Nic Pittman & Jake Weis
